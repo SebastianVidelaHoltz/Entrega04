@@ -1,4 +1,4 @@
-
+// Sebastian Videla Holtz
 // Función para convertir USD a ARS
 
 function convertirUSDaARS(cantidadUSD, tipoCambio, precioDolar) {
