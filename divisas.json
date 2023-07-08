@@ -1,0 +1,6 @@
+{ "divisas" : [
+    { "nombre":"USD", "precio": 485 },
+    { "nombre": "YUAN", "precio": 35 },
+    { "nombre": "YEN", "precio": 1.80 }
+  ]
+}
