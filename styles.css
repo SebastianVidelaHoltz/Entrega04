@@ -1,3 +1,23 @@
 @import "./node_modules/nes.css/css/nes.css";
 
-
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(178, 207, 207);
+}
+.nes-select{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.nes-btn{
+    margin-left: 20px;
+}
+button{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nes-input{
+    width: 50%;
+    margin-bottom: 20px;
+}

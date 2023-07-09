@@ -10,7 +10,7 @@ async function getDivisas() {
     const divisas = await response.json();
     return divisas;
   } catch (error) {
-    console.error("Error", error);  
+    console.error("Error, se realizo la conversion", error);  
   }
 }
 

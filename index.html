@@ -14,20 +14,23 @@
     <ol>
         <li>Elegir la divisa a convertir.</li>
         <li>Ingresar el monto a convertir a Pesos argentinos.</li>
-        <li>El resultado de la conversión se mostrará en un mensaje junto al monto ingresado.</li>
+        <li>El resultado de la conversión se mostrará en un mensaje en pantalla.</li>
         
     </ol>
-    <label for="De:">
-        <select id="monedaOrigen">
+    <label for="default_select"></label>
+        <div class="nes-select"><select id="monedaOrigen">
             <option value="USD">Dólar estadounidense (USD)</option>
             <option value="YUAN">Yuan(CNY)</option>
             <option value="YEN">Yen japonés(JPY)</option>
-          </select>
-    </label>
-    <label for="monto">
+          </select></div>
+    
+    <!-- <label for="monto">
         <input type="number" name="" placeholder="Ingrese un monto" id="monto">
-    </label>
-    <button id="btnConvertir">Convertir</button>
+    </label> -->
+    <div class="nes-field">
+        <input type="number" class="nes-input nes-text is-error" placeholder="Ingrese un monto" id="monto">
+    </div>
+    <button id="btnConvertir" type="button" class="nes-btn is-success">Convertir</button>
         <span id="resultado"></span>
 
       
